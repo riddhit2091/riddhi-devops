@@ -19,5 +19,5 @@ def test_divide():
     assert divide(5, 2) == 2.5
 
 def test_divide_by_zero():
-    with pytest.raises(ValueError):
+    with pytest.raises(ZeroDivisionError):
         divide(5, 0)
